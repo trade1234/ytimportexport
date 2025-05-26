@@ -33,7 +33,7 @@
       @if $is-rfs-media-query {
         $val: rfs-value($value);
 
-        // Do not render anything if fluid and non fluid values are the same
+        // Do not render anTYhing if fluid and non fluid values are the same
         $value: if($val == rfs-fluid-value($value), null, $val);
       }
       @else {
